@@ -39,7 +39,7 @@ INSERT INTO `book` VALUES (3, '三国演义', '罗贯中', 50, '清华出版社'
 INSERT INTO `book` VALUES (4, '水浒传', '施耐庵', 55.5, '清华出版社');
 INSERT INTO `book` VALUES (5, '平凡的世界', '路遥', 55, '清华出版社');
 INSERT INTO `book` VALUES (6, '围城', '钱钟书', 54, '清华出版社');
-INSERT INTO `book` VALUES (7, '何氏春秋', '何靖生', 999, '何氏出版社');
+INSERT INTO `book` VALUES (7, '吕氏春秋', '吕不韦', 99, '清华出版社');
 
 -- ----------------------------
 -- Table structure for user
@@ -60,6 +60,6 @@ CREATE TABLE `user`  (
 -- ----------------------------
 INSERT INTO `user` VALUES (1, 'zhangsan', '123', '男', '123456', '123@qq.com');
 INSERT INTO `user` VALUES (2, 'lisi', '123', '女', '123456', '123@qq.com');
-INSERT INTO `user` VALUES (3, '何靖生', '123', '男', '13819499483', '1783847296@qq.com');
+INSERT INTO `user` VALUES (3, 'wanger', '123', '男', '123456', '123@qq.com');
 
 SET FOREIGN_KEY_CHECKS = 1;
