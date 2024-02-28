@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+    background-color: skyblue;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    padding-top: 30px;
+    background-color: rgba(144, 133, 133, 0.2)
+}
+
+h2 {
+    text-align: center;
+}
+
+td {
+    padding: 10px 0;
+}
+
+input {
+    outline: none;
+    border: 0;
+    height: 20px;
+}
+
+input[type=submit] {
+	display: block;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+a {
+	margin-left: 10px;
+}
+i {
+    font-style: normal;
+    color: red;
+}
